@@ -9,12 +9,14 @@ const certifications = [
   {
     title: "Cisco Certified Network Associate (CCNA)",
     year: "2025",
-    icon: <SiCisco />
+    icon: <SiCisco />,
+    link: "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
   },
   {
     title: "Microsoft Certified Systems Engineer (MCSE)",
     year: "2024",
-    icon: <FaMicrosoft />
+    icon: <FaMicrosoft />,
+    link: "https://learn.microsoft.com/"
   }
 ];
 
@@ -28,18 +30,26 @@ const Certifications = () => {
 
         <div className="cert-grid">
           {certifications.map((cert, index) => (
-            <div className="cert-card" key={index}>
+  <a
+    href={cert.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cert-link"
+    key={index}
+  >
+    <div className="cert-card">
 
-  <div className="cert-icon">
-    {cert.icon}
-  </div>
+      <div className="cert-icon">
+        {cert.icon}
+      </div>
 
-  <h3>{cert.title}</h3>
+      <h3>{cert.title}</h3>
 
-  <p>{cert.year}</p>
+      <p>{cert.year}</p>
 
-</div>
-          ))}
+    </div>
+  </a>
+))}
         </div>
       </div>
     </section>

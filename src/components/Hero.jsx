@@ -55,8 +55,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="social-icons">
-  <a href="#"><FaLinkedin /></a>
-  <a href="#"><FaEnvelope /></a>
+  <a href="https://www.linkedin.com/in/arockiakuvinstion/" targer="_blank"><FaLinkedin /></a>
+  <a href="mailto:arokuvi@gmail.com" target="_blank"><FaEnvelope /></a>
   <a href="#"><FaPhone /></a>
 </div>
       </div>
