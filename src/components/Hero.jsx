@@ -1,13 +1,14 @@
 import React from 'react'
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import "../styles/Hero.css";
+import profile from "../assets/images/imag1.jpg";
 const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="hero-left">
-        <div className="profile-card">
+        <div className="profile">
           <img
-            src="/profile.jpg"
+            src={profile}
             alt="Arockia Kuvinston"
             className="profile-image"
           />

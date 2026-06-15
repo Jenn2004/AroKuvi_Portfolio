@@ -1,12 +1,13 @@
 import React from 'react'
-
+import hotelNetwork from "../assets/projects/hotelNetwork.jpg";
+import wasteManagement from "../assets/projects/Waste_management.jpg";
 import "../styles/Project.css";
 // import hotelNetwork from "../assets/projects/hotel-network.png";
 // import wasteManagement from "../assets/projects/waste-management.png";
 const projects = [
   {
     title: "Hotel Network Infrastructure Design",
-    // image: hotelNetwork,
+    image: hotelNetwork,
     tech: ["Cisco Packet Tracer", "VLAN", "DHCP", "DNS"],
     description:
       "Designed and configured a multi-floor hotel network using VLAN segmentation and security protocols."
@@ -14,7 +15,7 @@ const projects = [
 
   {
     title: "Smart Waste Management System",
-    // image: wasteManagement,
+    image: wasteManagement,
     tech: ["ESP32-CAM", "IoT", "ThingSpeak", "AI"],
     description:
       "Developed an IoT-based smart waste monitoring system with real-time alerts."
