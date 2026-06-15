@@ -16,9 +16,9 @@ const Hero = () => {
       </div>
 
       <div className="hero-right">
-        <h3>Hello, I'm Arockia Kuvinstion J</h3>
+        <h3>Hello, I'm</h3>
 
-        <h1>
+        <h1>Arockia Kuvinstion J<br />
           NETWORK <br />
           <span>ENGINEER</span>
         </h1>
