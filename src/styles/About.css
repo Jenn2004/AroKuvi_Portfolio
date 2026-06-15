@@ -1,0 +1,20 @@
+.about{
+    background:#0f0f0f;
+}
+
+.about-content{
+    margin-top:40px;
+}
+
+.about-text{
+    background:#161616;
+    padding:30px;
+    border-radius:20px;
+}
+
+.about-text p{
+    color:#a0a0a0;
+    line-height:1.9;
+    margin-bottom:20px;
+    font-size:1.05rem;
+}
