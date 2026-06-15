@@ -22,7 +22,8 @@ const Contact = () => {
           <div className="contact-card">
             <FaEnvelope className="contact-icon" />
             <h3>Email</h3>
-            <p>arokuvi@gmail.com</p>
+            <a href="mailto:arokuvi@gmail.com" className="contact-link">arokuvi@gmail.com</a>
+            
           </div>
 
           <div className="contact-card">
@@ -34,7 +35,7 @@ const Contact = () => {
           <div className="contact-card">
             <FaLinkedin className="contact-icon" />
             <h3>LinkedIn</h3>
-            <p>linkedin.com/in/arockiakuvinston</p>
+            <a href="https://www.linkedin.com/in/arockiakuvinstion/" target="_blank" className="contact-link"><p>linkedin.com://arokuvi</p></a>
           </div>
 
           <div className="contact-card">

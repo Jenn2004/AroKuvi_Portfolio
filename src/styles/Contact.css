@@ -37,7 +37,15 @@
     color:#c0c0c0;
     word-break:break-word;
 }
+.contact-link{
+    color:#c0c0c0;
+    text-decoration:none;
+    transition:.3s;
+}
 
+.contact-link:hover{
+    color:#ff6b2c;
+}
 @media(max-width:480px){
 
     .contact-card{
