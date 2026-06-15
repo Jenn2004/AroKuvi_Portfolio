@@ -111,7 +111,9 @@
 .social-icons a:hover{
   color:#ff6b2c;
 }
-
+h2{
+    color:#a0a0a0;
+}
 @media(max-width:768px){
 
     .hero{
