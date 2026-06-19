@@ -18,7 +18,7 @@ const Experience = () => {
 
             <div className="timeline-content">
               <h3>Technical Support Engineer</h3>
-              <h4>Abu Dhabi, UAE</h4>
+              <h4>IPNS -<i> Abu Dhabi, UAE</i></h4>
               <span>Dec 2025 - Present</span>
 
               <ul>
@@ -35,7 +35,7 @@ const Experience = () => {
 
             <div className="timeline-content">
               <h3>IT Support Intern</h3>
-              <h4>AK Infopark Pvt Ltd</h4>
+              <a href="https://www.ipns-uae.com/"><h4>AK Infopark Pvt Ltd <i>- Nagercoil, Tamilnadu</i></h4></a>
               <span>Feb 2025 - Sep 2025</span>
 
               <ul>
